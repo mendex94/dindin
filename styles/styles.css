@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1440px;
+}
+
+header {
+    background-color: #2E948A;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 100px
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+nav a {
+    color: #F7F7F7;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.jumbotrom {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.jumbo-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ff4081;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.jumbo-content p {
+    font-size: 27px;
+    font-weight: 400;
+    color: #555555;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.jumbo-content a {
+    border: 2px solid #ff4081;
+    border-radius: 62px;
+    font-size: 27px;
+    color: #ff4081;
+    width: 258px;
+    height: 51px;
+    padding: 13px 15px;
+}
+
+.jumbo-content a:hover {
+    color: #F7F7F7;
+    background-color: #ff4081;
+}
+
+.container {
+    background-color: #F7F7F7;
+}
+
+.display-cursos {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.display-cursos-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.display-cursos-item img {
+    width: 288px;
+    height: 270px;
+}
+
+.display-cursos-item h2 {
+    font-size: 25px;
+    color: #ff4081;
+    font-weight: 700;
+}
+
+.display-cursos-item p {
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+}
+
+.display-cursos-item button {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: #ff4081;
+    border-radius: 62px;
+    width: 233px;
+    height: 51px;
+}
+
+.display-cursos-item button:hover {
+    cursor: pointer;
+}
+
+.falam-sobre-nos h2 {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    color: #009688;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.sobre-nos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 100px;
+}
+
+.falam-sobre-nos-item {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center
+}
+
+.falam-sobre-nos-item p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.falam-sobre-nos-item span {
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.falam-sobre-nos {
+    padding-bottom: 100px;
+}
+
+.blogposts-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blogposts-content a {
+    font-size: 25px;
+    color: #ff4081;
+    border: 2px solid #ff4081;
+    border-radius: 62px;
+    width: 289px;
+    height: 51px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.blogposts-content a:hover {
+    color: #F7F7F7;
+    background-color: #ff4081;
+}
+
+.titulo-section {
+    font-size: 37px;
+    color: #009688;
+    font-weight: bold;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.blogposts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blogposts-grid-item img {
+    margin-bottom: 10px;
+}
+
+.blogposts-grid-item h2 {
+    font-size: 27px;
+    color: #009688;
+}
+
+.blogposts-grid-item p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blogposts-btn {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer {
+    background-color: #009688;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-nav a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-btn a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 289px;
+    height: 51px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-btn a:hover {
+    color: #009688;
+    background-color: white;
+}
+
