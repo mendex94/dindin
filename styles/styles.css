@@ -344,7 +344,7 @@ footer {
 hr {
     height: 5px;
     background-color: #c4c4c4;
-    width: 1440px;
+    width: 90%;
 }
 
 .aulas {
@@ -484,4 +484,90 @@ textarea:-moz-placeholder {
 .form-contato {
     display: flex;
     flex-direction: row;
+}
+
+@media (max-width: 960px) {
+    
+    .jumbotrom {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .jumbotrom img {
+        display: none;
+    }
+
+    .display-cursos {
+        grid-template-columns: 1fr;
+        gap: 100px;
+    }
+
+    .sobre-nos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .blogposts-grid {
+        grid-template-columns: 1fr;
+        gap: 100px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cursos-item img {
+        display: none;
+    }
+
+    .cursos-item {
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+
+    .cursos-titulo {
+        padding-left: 100px;
+    }
+
+    .post img {
+        display: none;
+    }
+
+    .post {
+        width: 70%;
+    }
+
+    .form-contato img {
+        display: none;
+    }
+
+    .form-contato input {
+        width: 100%;
+    }
+
+    .form-contato textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width:555px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav {
+        gap:50px;
+    }
+    .falam-sobre-nos-item {
+        flex-direction: column;
+    }
+    .cursos-description {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1040px) {
+    .blog-posts {
+        grid-template-columns:2fr;
+    }
 }
