@@ -491,6 +491,7 @@ textarea:-moz-placeholder {
     .jumbotrom {
         align-items: center;
         justify-content: center;
+        width: 90%;
     }
     
     .jumbotrom img {
@@ -563,6 +564,13 @@ textarea:-moz-placeholder {
     }
     .cursos-description {
         width: 80%;
+    }
+
+    .blog-post-item img {
+        width: 90%;
+    }
+    .blog-post-item {
+        width: 90%;
     }
 }
 
